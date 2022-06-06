@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Introduction</title>
+
+        <style>
+            table {
+                width: 600px;
+                margin-top: 24px;
+                margin-left: 24px;
+            }
+            table, td, th {
+                border: 1px solid black;
+                border-collapse:collapse;
+                background-color: lightskyblue;
+                font-size: 24px;
+                
+            }
+
+            td, th {
+                padding: 16px;
+            }
+
+            #heading {
+                text-align: center;
+            }
+
+            .row-heading {
+                text-align: center;
+            }
+
+            .image-item {
+                width: 300px;
+                height: 300px;
+            }
+
+            .caption {
+                font-size: 24px;
+                margin-top: 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table class="row-heading">
+            <caption> My Class Time Table </caption>
+            <div>
+                <h1 id="heading"> TIME TABLE </h1>
+            </div>
+            <tr>
+                <td rowspan="6" style="text-align:center;"> HOURS </td>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Maths</td>
+                <td>IP</td>
+                <td>Art</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td>IP</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Art</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align:center;">
+                    COMPUTER LAB
+                </td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Art</td>
+                <td>IP</td>
+                <td>Sports</td>
+            </tr>
+                    
+            <tr>
+                <td>IP</td>
+                <td>English</td>
+                <td>Maths</td>
+                 <td>Art</td>
+                <td>Sports</td>
+            </tr>
+        </table>
+
+        <table style="margin-left: auto; margin-right: auto;">
+            <h1 id="heading"> Places to visit in India </h1>
+            <tr>
+                <td>
+                     <div>
+                         <img class="image-item" src="https://wallpapercave.com/wp/wp3495635.jpg" alt="OOTY"/>
+                         <p class="caption">Ooty!!!</p>
+                     </div>
+                </td>
+                <td>
+                    <div>
+                        <img class="image-item" src="http://www.destination360.com/asia/china/images/s/himalayas-mountains.jpg" alt="HIMALAYAS"/>
+                        <p class="caption">Himalayas!!!</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img class="image-item" src="https://travocrm-images.s3.ap-south-1.amazonaws.com/16230638041.jpg" alt="KODAIKANAL"/>
+                        <p class="caption">Kodaikanal!!!</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <img class="image-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThepxGVvd_hrF5tN6rJ4_ucYuNIhP16S-PnA&usqp=CAU" alt="BEACH"/>
+                        <p class="caption">Beach!!!</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img class="image-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiH9GobjKgWX6z9zN_jKqFBDTZGvdwkfwJug&usqp=CAU" alt="SUNSET BEACH"/>
+                        <p class="caption">Sunset Beach!!!</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img class="image-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwGZ5A4fusKNXdGryUJ1Z2L_suIpGVS8-HA&usqp=CAU" alt="MURUD BEACH"/>
+                        <p class="caption">Murud Beach!!!</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
